@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact</title>
+  <link href="../style_equipe.css" rel="stylesheet" type="text/css">
+</head>
+<body class="arnaud">
+<header>
+
+</header>
+<nav class="nav_d">
+  <ul>
+    <li><a href="../../html/equipe.html" title="equipe">Equipe</a></li>
+    <li><a href="CVarnaud.html" title="cv">CV</a></li>
+    <li><a href="Hobbies.html" title="hobbies">Hobbies</a></li>
+    <li><a href="Contact.html" title="contact">Contact</a></li>
+    <li><a href="Vidéo%20CV.html">CV Vidéo</a></li>
+    <li><img class="logo" src="../Media/logocp.png"></li>
+  </ul>
+</nav>
+<br>
+<form action="https://httpbin.org/post" method="post">
+  <h1 class="arnaud">Formulaire de contact</h1 class="arnaud">
+  <div class=arnaud>
+    <label for="espece">Espèce:</label>
+    <input type="text" id="espece" name="espece" value="Qui suis je?">
+  </div>
+  <div class=arnaud>
+    <p>D'où venez vous?</p>
+    <input type="radio" id="terre" name="answer" value="terre">
+    <label for="terre">Terre</label>
+    <input type="radio" id="autre" name="answer" value="terre">
+    <label for="autre">autre</label>
+  </div>
+  <br>
+  <div class=arnaud>
+    <label for="motif">Motif de la prise de contact:</label>
+    <select id="motif" name="motif">
+      <option value="drague">Drague</option>
+      <option value="travail">Travail</option>
+      <option value="troll">Troll</option>
+    </select>
+  </div>
+  <br>
+
+  <div class=arnaud>
+    <label for="message">Message:</label><br><br>
+
+    <textarea id="message" name="votre message" rows="10" cols="30"></textarea>
+  </div>
+  <br>
+  <div class=arnaud>
+    <input type="submit" value="Envoyer">
+  </div>
+
+
+</form>
+
+
+</body>
+</html>

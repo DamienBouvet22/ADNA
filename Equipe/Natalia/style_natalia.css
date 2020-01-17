@@ -1,0 +1,264 @@
+
+.generalnatalia{
+    position: absolute;
+    width: 100%;
+}
+.conteneurnatalia{
+    position: absolute;
+    width: 100%;
+}
+.conteneurhobbynatalia{
+    position: absolute;
+    width: 100%;
+}
+.conteneurvideonatalia {
+    position: absolute;
+    width: 100%;
+}
+
+/* Pour personnaliser le menu et son conteneur*/
+
+
+.menunatalia{
+    padding: 20px;
+    font-family: "Verdana Pro", SansSerif;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgba(72, 54, 25, 0.41);
+    position: relative;
+    width: 100%;
+
+}
+
+.onglet{
+    margin: 20px;
+    text-decoration: none;
+    color: aliceblue;
+}
+/*Pour attribuer les couleurs de fond du site*/
+.fondnatalia{
+    background-color: #E5E5E5;
+    font-family: "Verdana Pro", SansSerif;
+
+
+
+
+
+
+}
+.fondindexnatalia{
+    background-color: #E5E5E5;
+    font-family: "Verdana Pro", SansSerif;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+
+
+
+
+
+
+}
+.fondvideonatalia{
+    background-color: #E5E5E5;
+    font-family: "Verdana Pro", SansSerif;
+
+    padding-top: 10px;
+
+    padding-bottom: 250px;
+    padding-left: 450px;
+
+
+
+}
+.fondhobbynatalia{
+    background-color: #E5E5E5;
+    font-family: "Verdana Pro", SansSerif;
+
+
+    padding-bottom: 250px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+
+
+
+
+
+
+}
+div>.titrenatalia{
+    text-align: left;
+    margin-top: 0px;
+    padding-top: 50px;
+
+
+}
+.parcoursnatalia{
+    background-color: #F4F4F4 ;
+    padding: 50px;
+    margin-left: -50px;
+    margin-right: -50px;
+    height: 150px;
+    overflow: hidden;
+
+}
+/*Pour mettre en forme le texte des pages (sauf menu)*/
+.mescompetencesnatalia{
+    font-family: "Gill Sans MT";
+    font-size: 20px;
+    color: dimgray;
+}
+.agauchenatalia{
+    font-family: "Gill Sans MT";
+    font-size: 20px;
+    color: dimgray;
+    text-align: left;
+
+
+}
+.parcoursnatalia  p{
+    color: rgba(0, 0, 0, 0.8);
+}
+/*Pour placer la photo à droite et la faire flotter par rapport aux autres éléments*/
+#maphotonatalia {
+    display: block;
+    float: right;
+    padding: 5px 1px;
+    overflow: hidden;
+    border-radius:80px;
+    padding-right: 20px;
+
+
+
+
+
+
+}
+/*Pour personnaliser le formulaire de contact*/
+.formulairenatalia{
+
+
+    top: 0px;
+    background-color: #FFB25C;
+    padding: 50px;
+
+
+
+
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: "verdana", sans-serif;
+    color: #454545;
+
+
+    font-size: 22px;
+
+
+}
+
+.centragenatalia{
+    text-align: left;
+    margin: auto;
+    color: #454545;
+
+}
+.pagecontactnatalia{
+    color: #454545;
+
+}
+
+#msg{
+    background-color: #DFDDDC ;
+
+    border-radius: 10px;
+
+    border: white;
+
+
+
+
+}
+.pagecontactnatalia textarea:focus,input:focus{
+    border: 1px white solid;
+    outline: none !important;
+}
+.pagecontactnatalia select::selection{
+    background-color: white;
+    border-color: white;
+}
+.monboutonnatalia {
+    height: 30px;
+    font-family: "Droid Sans", sans-serif;
+    font-size: 20px;
+    border: white;
+    color: #454545;
+    background-color: white;
+
+}
+.emailnatalia{
+    border: none;
+    padding: 1px;
+}
+.casenatalia{
+    border: white;
+}
+/*Les videos*/
+.videonatalia{
+    text-align: center;
+
+}
+.agauchenatalia{
+    text-align: left;
+}
+
+/*le footer*/
+.footernatalia{
+    height: 50px;
+    text-align: center;
+    background-color: rgba(72, 54, 25, 0.41);
+    bottom: 0px;
+    padding: 20px;
+    color: white!important;
+    font-family: "Verdana Pro", SansSerif;
+    font-size: 20px;
+    font-weight: bold;
+
+
+
+}
+.textfooternatalia{
+    color: white;
+}
+/*mise en forme du tableau*/
+
+#tableaunatalia table, th, td {
+    border: 1px solid black;
+    text-align: center;
+    font-family: "Gill Sans MT";
+    font-size: 20px;
+
+    color: black;
+}
+#tableaunatalia table{
+    border-collapse: collapse;
+    width: 100%;
+}
+#tableaunatalia thead tr{
+    background-color: #FFB25C;
+}
+#tableaunatalia tbody tr{
+    background-color: white;
+}
+#tableaunatalia{
+    margin-left: 500px;
+
+}
+div>#tableaunatalia{
+    text-align: center;
+
+}

@@ -1,0 +1,804 @@
+#main_body {
+    font-family: "Agency FB";
+    background-image: url('../Media/montagne_opacity.jpg');
+    background-position: 0 12vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100vw;
+}
+/*NAVBAR*/
+.header{
+    height:12vh;
+    background-color: white;
+}
+.logo_only {
+    height: 10vh;
+}
+.acronyme {
+    height: 7vh;
+}
+.nav-item {
+    text-align: right;
+}
+.nav-link {
+    color: white;
+    background-color: #EC62A0;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav-link:hover {
+    color: #EC62A0;
+    background-color: white;
+}
+.navbar-toggler {
+    color: #EC62A0 !important;
+    border-style: none;
+}
+#myNavbar ul {
+    margin-right: 0px;
+    margin-left: auto;
+}
+
+/*FOOTER*/
+.footer_team {
+    background-color: white;
+    border-top: 4px solid #EC62A0;
+    padding-top: 30px;
+}
+.footer_team a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #EC62A0;
+}
+.logo_footer {
+    max-width: 100%;
+    width: 250px;
+    height: 210px;
+}
+
+/*EQUIPE*/
+.presentation_photos{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: auto;
+    justify-content: space-around;
+
+
+}
+figcaption{
+    background-color: rgba(192,192,192,0);
+    color: mediumvioletred;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+}
+.presentation_photos img {
+    max-height: 400px;
+    max-width: 400px;
+    height:350px;
+    width: auto;
+    align-self: center;
+    padding-top: 25px;
+    filter: grayscale(100%);
+}
+img:hover {
+    filter: none;
+}
+figure {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    border: thin rgba(192,192,192,0.4) solid;
+    background-color: rgba(192,192,192,0.4);
+    box-shadow: 8px 8px 8px darkgrey;
+    align-content: center;
+}
+.presentation_photos a {
+    text-align: center
+}
+
+/*DAMIEN*/
+.body_damien{
+    background-color: black;
+}
+.video_damien{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.p_damien{
+    font-size:16px;
+    text-align: center;
+    font-family: 'Saira Stencil One', cursive;
+}
+.h1_damien,.h2_damien,.h3_damien {
+    font-weight: bold;
+    font-family: 'Saira Stencil One', cursive;
+}
+.h2_damien,.h3_damien {
+    font-size: 20px;
+    text-align: center;
+}
+form, textarea, .submit, .table {
+    font-family: 'Saira Stencil One', cursive;
+}
+/* Navbar */
+.navbar_damien{
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    width: 97%;
+}
+.navbar_damien li {
+    float: left;
+}
+.navbar_damien a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Black Ops One', cursive;
+}
+.navbar_damien li a:hover {
+    background: linear-gradient(to right, red, black);
+    color: white;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.active {
+    background: linear-gradient(to right, red, black);
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+/* header_a */
+.header_a{
+    border-radius: 20px;
+    border: 2px solid black;
+    overflow: auto;
+    background: linear-gradient(to right, red, black);
+    margin: auto;
+    width: 97%;
+}
+.header_a h1{
+    font-weight: bold;
+    text-align: left;
+    margin-left: 50px;
+    text-shadow: 4px 4px 3px black;
+    text-transform: uppercase;
+    font-size: 50px;
+    color: white;
+    font-family: 'Black Ops One', cursive;
+}
+.photo {
+    width: 11%;
+    border-radius: 15px;
+    /*display: flex;*/
+    /*justify-content: flex-start;*/
+    float: right;
+    margin-top: -147px;
+}
+.Age {
+    text-align: left;
+    margin-left: 50px;
+    color: black;
+    text-shadow: 2px 2px 4px white;
+    font-size: 30px;
+    font-family: 'Black Ops One', cursive;
+}
+/* Compétences */
+#comp {
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid red;
+    margin: auto;
+    width: 97%;
+}
+.comp {
+    background-color: red;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+#comp h1 {
+    text-align: center;
+    color: black;
+    text-shadow: 1px 2px 4px red;
+    padding-bottom: 0px;
+    font-size: 45px;
+}
+#comp ul {
+    list-style-type: none;
+}
+.ul_comp {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+.li_comp {
+    font-size: 24px;
+    text-decoration: underline;
+    font-weight: bold;
+    color: red;
+    text-shadow: 10px 2px 18px black;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-family: 'Saira Stencil One', cursive;
+}
+.iyf {
+    padding-right: 30px;
+    list-style-type: none;
+    font-family: 'Saira Stencil One', cursive;
+}
+.wings {
+    width:100%;
+    border-radius: 20px;
+}
+/* Expériences Pro */
+#exp {
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid red;
+    overflow: auto;
+    margin: auto;
+    width: 97%;
+}
+#exp h1 {
+    text-align: center;
+    color: black;
+    text-shadow: 1px 2px 4px red;
+    font-size: 45px;
+}
+#exp h3 {
+    padding-bottom: 70px;
+}
+.table_damien {
+    margin-left:340px;
+    text-align: center;
+    width: 70%;
+    padding-bottom: 90px;
+    overflow: auto;
+}
+.team {
+    font-weight: bold;
+    font-size: 35px;
+}
+.poste {
+    font-size: 24px;
+}
+.date {
+    font-size: 20px;
+}
+/* Hobbies */
+#hobby {
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid red;
+    overflow: auto;
+    margin: auto;
+    width: 97%;
+}
+#hobby h1 {
+    text-align: center;
+    color: black;
+    text-shadow: 1px 2px 4px red;
+    padding-bottom: 30px;
+    font-size: 45px;
+}
+.contacth1 {
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 2px red;
+    padding-bottom: 30px;
+    font-size: 42px;
+}
+.hobbyh h1 {
+    color: white;
+    text-shadow: 3px 3px 2px red;
+    padding-bottom: 30px;
+    font-size: 42px;
+}
+#hobby p {
+    padding-bottom: 50px;
+}
+.hobbyp {
+    color: white;
+    width: 68%;
+}
+.hobbyp p {
+    text-align: left;
+    font-size: 16px;
+}
+#fontawesome {
+    text-align: center;
+}
+#fontawesome a {
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 70px;
+    color: black;
+    text-decoration: none;
+}
+#homehobby {
+    color: white;
+    text-decoration: none;
+    text-align: left;
+    display: inline-block;
+    padding-left:80px;
+    padding-bottom: 50px;
+    width: 100%;
+}
+/* Page Video */
+.video_h1 {
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 2px red;
+    padding-bottom: 30px;
+    font-size: 35px;
+}
+#fontawesomeg {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    /*! padding-left: 100px; */
+    padding-bottom: 50px;
+    width: 100%;
+}
+.body_autre{
+    background-image: url('Media/ball.jpg');
+    background-size: auto;
+}
+
+/*ARNAUD */
+@font-face {
+    font-family:'belligerent_madnessregular';
+    src: url('belligerent-webfont.eot');
+    src: url('belligerent-webfont.eot?#iefix') format('embedded-opentype'),
+    url('belligerent-webfont.woff2') format('woff2'),
+    url('belligerent-webfont.woff') format('woff'),
+    url('belligerent-webfont.ttf') format('truetype'),
+    url('belligerent-webfont.svg#belligerent_madnessregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'anonymousregular';
+    src: url('Anonymous-webfont.eot');
+    src: url('Anonymous-webfont.eot?#iefix') format('embedded-opentype'),
+    url('Anonymous-webfont.woff2') format('woff2'),
+    url('Anonymous-webfont.woff') format('woff'),
+    url('Anonymous-webfont.ttf') format('truetype'),
+    url('Anonymous-webfont.svg#anonymousregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+h1.arnaud {
+    font-family: 'belligerent_madnessregular';
+    color: chocolate;
+    text-decoration: blink;
+    text-align: center;
+    font-size: 150px;
+}
+h2.arnaud {
+    font-family: 'belligerent_madnessregular';
+    color: brown;
+    font-weight: bold;
+    font-size: 100px;
+}
+.dessous {
+    clear: both;
+}
+div.arnaud {
+    font-family: 'anonymousregular';
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+}
+p.arnaud {
+    font-family: "anonymousregular";
+    color: sandybrown;
+}
+.hobbie {
+    color: black;
+    padding: 50px;
+}
+.gras {
+    font-weight: bold;
+}
+body.arnaud {
+    background-image: url('Media/plage.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+}
+.profil {
+    float: right;
+    margin-right: 20px;
+    width: 300px;
+    height: auto;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+.adress {
+    text-align: left;
+
+    margin-left: 20px;
+}
+table.arnaud {
+    margin: auto
+}
+.nav_d a {
+    color: gold;
+    font-family: Verdana;
+}
+.video {
+    display: block;
+    margin: auto;
+    border: 2px antiquewhite solid;
+    width: 45%;
+    height: auto
+}
+.videoyoutube {
+    display: block;
+    margin: auto;
+}
+/* * {
+  margin: 0px;
+  padding: 0px;
+  line-height: 2;
+}
+*/
+.nav_d li {
+    list-style-type: none;
+    padding: 5px 10px 5px 10px;
+}
+.nav_d ul {
+    list-style-type: none;
+    width: 100%;
+    background-color: #666666;
+    border: 1px solid black;
+    position: fixed;
+    margin: auto;
+}
+.nav_d li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+    float: left;
+}
+.nav_d li a {
+    float: left;
+    display: block;
+    color: gainsboro;
+    padding: 8px 10px;
+    text-decoration: none;
+    display: block;
+    width: 80px;
+    text-align: center;
+}
+.nav_d li a:hover {
+    background-color: peru;
+    color: white;
+}
+.fond th {
+    color: sandybrown;
+    padding: 10px;
+}
+.fond td {
+    padding: 5px 10px 5px 10px;
+}
+.fond {
+    background-color: rgba(160,82,45,0.7);
+    width: 1200px;
+    height: auto;
+    text-align: center;
+    margin: auto;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+.logo{
+    height: 80px;
+    width: auto;
+}
+
+/*NATALIA*/
+.generalnatalia{
+    position: absolute;
+    width: 100%;
+}
+.conteneurnatalia{
+    position: absolute;
+    width: 100%;
+}
+.conteneurhobbynatalia{
+    position: absolute;
+    width: 100%;
+}
+.conteneurvideonatalia {
+    position: absolute;
+    width: 100%;
+}
+/* Pour personnaliser le menu et son conteneur*/
+.menunatalia{
+    padding: 20px;
+    font-family: "Verdana Pro", SansSerif;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgba(72, 54, 25, 0.41);
+    position: relative;
+    width: 100%;
+
+}
+.onglet{
+    margin: 20px;
+    text-decoration: none;
+    color: aliceblue;
+}
+/*Pour attribuer les couleurs de fond du site*/
+.fondnatalia{
+    background-color: #E5E5E5;
+    font-family: "Verdana Pro", SansSerif;
+}
+.fondindexnatalia{
+    background-color: #E5E5E5;
+    font-family: "Verdana Pro", SansSerif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+}
+.fondvideonatalia{
+    background-color: #E5E5E5;
+    font-family: "Verdana Pro", SansSerif;
+    padding-top: 10px;
+    padding-bottom: 250px;
+    padding-left: 450px;
+}
+.fondhobbynatalia{
+    background-color: #E5E5E5;
+    font-family: "Verdana Pro", SansSerif;
+    padding-bottom: 250px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+div>.titrenatalia{
+    text-align: left;
+    margin-top: 0px;
+    padding-top: 50px;
+
+}
+.parcoursnatalia{
+    background-color: #F4F4F4 ;
+    padding: 50px;
+    margin-left: -50px;
+    margin-right: -50px;
+    height: 150px;
+    overflow: hidden;
+}
+/*Pour mettre en forme le texte des pages (sauf menu)*/
+.mescompetencesnatalia{
+    font-family: "Gill Sans MT";
+    font-size: 20px;
+    color: dimgray;
+}
+.agauchenatalia{
+    font-family: "Gill Sans MT";
+    font-size: 20px;
+    color: dimgray;
+    text-align: left;
+
+
+}
+.parcoursnatalia  p{
+    color: rgba(0, 0, 0, 0.8);
+}
+/*Pour placer la photo à droite et la faire flotter par rapport aux autres éléments*/
+#maphotonatalia {
+    display: block;
+    float: right;
+    padding: 5px 1px;
+    overflow: hidden;
+    border-radius:80px;
+    padding-right: 20px;
+
+
+
+
+
+
+}
+/*Pour personnaliser le formulaire de contact*/
+.formulairenatalia{
+    top: 0px;
+    background-color: #FFB25C;
+    padding: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: "verdana", sans-serif;
+    color: #454545;
+    font-size: 22px;
+}
+.centragenatalia{
+    text-align: left;
+    margin: auto;
+    color: #454545;
+}
+.pagecontactnatalia{
+    color: #454545;
+}
+#msg{
+    background-color: #DFDDDC ;
+    border-radius: 10px;
+    border: white;
+}
+.pagecontactnatalia textarea:focus,input:focus{
+    border: 1px white solid;
+    outline: none !important;
+}
+.pagecontactnatalia select::selection{
+    background-color: white;
+    border-color: white;
+}
+.monboutonnatalia {
+    height: 30px;
+    font-family: "Droid Sans", sans-serif;
+    font-size: 20px;
+    border: white;
+    color: #454545;
+    background-color: white;
+}
+.emailnatalia{
+    border: none;
+    padding: 1px;
+}
+.casenatalia{
+    border: white;
+}
+/*Les videos*/
+.videonatalia{
+    text-align: center;
+}
+.agauchenatalia{
+    text-align: left;
+}
+/*le footer*/
+.footernatalia{
+    height: 50px;
+    text-align: center;
+    background-color: rgba(72, 54, 25, 0.41);
+    bottom: 0px;
+    padding: 20px;
+    color: white!important;
+    font-family: "Verdana Pro", SansSerif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.textfooternatalia{
+    color: white;
+}
+/*mise en forme du tableau*/
+#tableaunatalia table, th, td {
+    border: 1px solid black;
+    text-align: center;
+    font-family: "Gill Sans MT";
+    font-size: 20px;
+    color: black;
+}
+#tableaunatalia table{
+    border-collapse: collapse;
+    width: 100%;
+}
+#tableaunatalia thead tr{
+    background-color: #FFB25C;
+}
+#tableaunatalia tbody tr{
+    background-color: white;
+}
+#tableaunatalia{
+    margin-left: 500px;
+}
+div>#tableaunatalia{
+    text-align: center;
+}
+
+/*ADIL*/
+.navbar_adil a
+{
+    color: cadetblue;
+}
+.body_Adil
+{
+    background-color: mintcream;
+    padding-bottom: 250px;
+    font-family: cursive ;
+    color: slategrey;
+}
+.table_Adil
+{
+    border-collapse: collapse;
+    width: 100%;
+}
+.table_Adil td
+{
+    text-align: left;
+    padding: 8px;
+}
+.table_Adil th
+{
+    background-color: ghostwhite;
+    color: cadetblue;
+    text-align: center;
+    padding: 8px;
+}
+.table_Adil tr:nth-child(even){background-color: #f2f2f2}
+.navbar_adil
+{
+    display: inline;
+    padding-right: 30px;
+}
+.fixednav {
+    position: fixed; width: 100%;
+    background-color: ghostwhite;
+}
+.adil
+{
+    display: block;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: 200px;
+    padding: 10px;
+    box-shadow: 5px 5px 12px 0px #000000;
+    background-color: ghostwhite;
+    border-radius: 10px;
+    border: 2px solid cadetblue;
+}
+.videodisplay
+{
+    text-align: center;
+    padding-top: 100px;
+
+}
+.h1_Adil
+{
+    text-align: center;
+}
+.h2_Adil
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.comp
+{
+    background-color: ghostwhite;
+    border-radius: 10px;
+    border: 2px solid cadetblue;
+
+    box-shadow: 5px 5px 12px 0px #000000;
+
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.contact
+{
+    margin-left: 50px;
+}

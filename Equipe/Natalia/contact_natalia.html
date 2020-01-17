@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>contact</title>
+    <link rel="stylesheet" type="text/css" href="style_natalia.css">
+</head>
+<body>
+
+<div class="menunatalia">
+    <a class="onglet" href="../../html/equipe.html">EQUIPE</a>
+    <a class="onglet" href="natalia.html">NATALIA</a>
+    <a class="onglet" href="hobbies_natalia.html">HOBBIES</a>
+    <a class="onglet" href="video_natalia.html">VIDEO</a>
+    <a class="onglet" href="contact_natalia.html">CONTACT</a>
+</div>
+<div class="generalnatalia">
+    <div class="fondnatalia">
+        <div class="formulairenatalia">
+            <form action="contact" method="post">
+
+
+                <p class="pagecontactnatalia">Vous pouvez me contacter via le formulaire suivant :</p><br>
+                <div>
+                    <p class="pagecontactnatalia">Vous êtes un(e) : </p>
+                    <select class="casenatalia">
+                        <option class="casenatalia" value="Homme">Homme</option>
+                        <option class="casenatalia" value="femme">Femme</option>
+                        <option class="casenatalia" value="autre">Ne se prononce pas</option>
+                    </select>
+                </div>
+                <br><br>
+                <div class="centrage">
+                    <label for="name">Votre nom :</label>
+                    <input class="case" type="text" id="name" name="user_name">
+                </div>
+                <br><br>
+                <div class="centragenatalia">
+                    <label for="mail">Votre email : </label>
+                    <input class="emailnatalia" type="email" required id="mail" name="user_mail">
+                </div>
+                <br>
+                <div>
+                    <p class="pagecontactnatalia">Vous êtes intéressé par les activités de : </p>
+                    <input class="casenatalia" type="radio" name="activite" value="graphisme">GRAPHISME<br>
+                    <input class="casenatalia" type="radio" name="activite" value="motiondesign">MOTION DESIGN<br>
+                    <input class="casenatalia" type="radio" name="activite" value="graphisme">TAXIDERMIE<br>
+                    <br><br><br>
+
+                </div>
+                <div>
+                    <label for="msg">Votre message : </label><br><br>
+                    <textarea id="msg" name="user_message" rows="20" cols="150"></textarea>
+
+                </div>
+                <br><br><br>
+                <div class="button">
+                    <button class="monboutonnatalia" type="submit" formaction="https://httpbin.org/post"> Envoyer le message
+                    </button>
+                </div>
+            </form>
+
+        </div>
+
+
+
+
+    </div>
+    <div class="footernatalia">
+        <p class="textfooternatalia">Le campus numérique 2019</p>
+
+    </div>
+</div>
+</body>
+</html>

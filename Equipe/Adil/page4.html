@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../style_equipe.css" />
+</head>
+<body class="body_Adil">
+
+<div class="fixednav">
+    <ul id="navbar">
+        <li class="navbar_adil"><a class="nav" href="../../html/equipe.html">Equipe </a></li>
+        <li class="navbar_adil"><a class="nav" href="adil.html">Adil </a></li>
+        <li class="navbar_adil"><a class="nav" href="page2.html">Hobby </a></li>
+        <li class="navbar_adil"><a class="nav" href="page3.html">Video </a></li>
+        <li class="navbar_adil"><a class="nav" href="page4.html">Contact </a></li>
+    </ul>
+</div>
+<br><br><br>
+
+<div class="contact">
+<h2 class="h2_Adil">Fiche de contact</h2>
+
+<form id="contact" method="post" action="https://httpbin.org/post">
+
+    <input type="radio" id="contactChoice1"
+           name="contact" value="email" checked>
+    <label for="contactChoice1">Email</label>
+
+    <input type="radio" id="contactChoice2"
+           name="contact" value="telephone">
+    <label for="contactChoice2">Téléphone</label>
+
+    <p><label for="nom">Nom* :</label>
+        <input type="text" id="nom" name="nom" tabindex="1" required /></p>
+
+    <p><label for="email">Email :</label>
+        <input type="text" id="email" name="email" tabindex="2" /></p>
+
+    <p><label for="telephone">Téléphone :</label>
+        <input type="text" id="telephone" name="telephone" tabindex="3" /></p>
+
+    <p><label>Etes vous :</label>
+        <select name="Selection" id="Choix">
+        <option value="text">Un homme</option>
+        <option value="text">Une femme</option>
+        <option value="text">Autre</option></select>
+
+    <p><label for="message">Message :</label><br><br>
+        <textarea id="message" name="message" tabindex="4" cols="50" rows="8"></textarea></p>
+
+    <div style="text-align:left;"><input type="submit" name="envoi" value=" Envoyer " /></div>
+</form>
+</div>
+</body>
+</html>

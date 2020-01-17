@@ -1,0 +1,267 @@
+/* General */
+.body_damien{
+    background-color: black;
+}
+.video_damien{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.p_damien{
+    font-size:16px;
+    text-align: center;
+    font-family: 'Saira Stencil One', cursive;
+}
+.h1_damien,.h2_damien,.h3_damien {
+    font-weight: bold;
+    font-family: 'Saira Stencil One', cursive;
+}
+.h2_damien,.h3_damien {
+    font-size: 20px;
+    text-align: center;
+}
+form, textarea, .submit, .table {
+    font-family: 'Saira Stencil One', cursive;
+}
+
+/* Navbar */
+.navbar_damien{
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    width: 97%;
+}
+.navbar_damien li {
+    float: left;
+}
+.navbar_damien a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Black Ops One', cursive;
+}
+.navbar_damien li a:hover {
+    background: linear-gradient(to right, red, black);
+    color: white;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.active {
+    background: linear-gradient(to right, red, black);
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+/* header_a */
+.header_a{
+    border-radius: 20px;
+    border: 2px solid black;
+    overflow: auto;
+    background: linear-gradient(to right, red, black);
+    margin: auto;
+    width: 97%;
+}
+.header_a h1{
+    font-weight: bold;
+    text-align: left;
+    margin-left: 50px;
+    text-shadow: 4px 4px 3px black;
+    text-transform: uppercase;
+    font-size: 50px;
+    color: white;
+    font-family: 'Black Ops One', cursive;
+}
+.photo {
+    width: 11%;
+    border-radius: 15px;
+    /*display: flex;*/
+    /*justify-content: flex-start;*/
+    float: right;
+    margin-top: -147px;
+}
+.Age {
+    text-align: left;
+    margin-left: 50px;
+    color: black;
+    text-shadow: 2px 2px 4px white;
+    font-size: 30px;
+    font-family: 'Black Ops One', cursive;
+}
+
+/* Compétences */
+#comp {
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid red;
+    margin: auto;
+    width: 97%;
+}
+.comp {
+    background-color: red;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+#comp h1 {
+    text-align: center;
+    color: black;
+    text-shadow: 1px 2px 4px red;
+    padding-bottom: 0px;
+    font-size: 45px;
+}
+#comp ul {
+    list-style-type: none;
+}
+.ul_comp {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+.li_comp {
+    font-size: 24px;
+    text-decoration: underline;
+    font-weight: bold;
+    color: red;
+    text-shadow: 10px 2px 18px black;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-family: 'Saira Stencil One', cursive;
+}
+.iyf {
+    padding-right: 30px;
+    list-style-type: none;
+    font-family: 'Saira Stencil One', cursive;
+
+}
+.wings {
+    width:100%;
+    border-radius: 20px;
+}
+
+/* Expériences Pro */
+#exp {
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid red;
+    overflow: auto;
+    margin: auto;
+    width: 97%;
+}
+#exp h1 {
+    text-align: center;
+    color: black;
+    text-shadow: 1px 2px 4px red;
+    font-size: 45px;
+}
+#exp h3 {
+    padding-bottom: 70px;
+}
+.table_damien{
+    margin-left:340px;
+    text-align: center;
+    width: 70%;
+    padding-bottom: 90px;
+    overflow: auto;
+}
+.team {
+    font-weight: bold;
+    font-size: 35px;
+}
+.poste {
+    font-size: 24px;
+}
+.date {
+    font-size: 20px;
+}
+
+/* Hobbies */
+#hobby {
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid red;
+    overflow: auto;
+    margin: auto;
+    width: 97%;
+}
+#hobby h1 {
+    text-align: center;
+    color: black;
+    text-shadow: 1px 2px 4px red;
+    padding-bottom: 30px;
+    font-size: 45px;
+}
+.contacth1 {
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 2px red;
+    padding-bottom: 30px;
+    font-size: 42px;
+}
+.hobbyh h1 {
+    color: white;
+    text-shadow: 3px 3px 2px red;
+    padding-bottom: 30px;
+    font-size: 42px;
+}
+#hobby p {
+    padding-bottom: 50px;
+}
+.hobbyp {
+    color: white;
+    width: 68%;
+}
+.hobbyp p {
+    text-align: left;
+    font-size: 16px;
+}
+#fontawesome {
+    text-align: center;
+}
+#fontawesome a {
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 70px;
+    color: black;
+    text-decoration: none;
+}
+#homehobby {
+    color: white;
+    text-decoration: none;
+    text-align: left;
+    display: inline-block;
+    padding-left:80px;
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+/* Page Video */
+.video {
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 2px red;
+    padding-bottom: 30px;
+    font-size: 35px;
+}
+#fontawesomeg {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    /*! padding-left: 100px; */
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+

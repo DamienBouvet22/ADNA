@@ -1,0 +1,97 @@
+
+.navbar a
+{
+  color: cadetblue;
+}
+
+.body_Adil
+{
+    background-color: mintcream;
+    padding-bottom: 250px;
+    font-family: cursive ;
+    color: slategrey;
+}
+
+
+.table_Adil
+{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table_Adil td
+{
+    text-align: left;
+    padding: 8px;
+}
+
+.table_Adil th
+{
+    background-color: ghostwhite;
+    color: cadetblue;
+    text-align: center;
+    padding: 8px;
+}
+
+.table_Adil tr:nth-child(even){background-color: #f2f2f2}
+
+
+.navbar
+{
+    display: inline;
+    padding-right: 30px;
+}
+
+.fixednav {
+    position: fixed; width: 100%;
+    background-color: ghostwhite;
+}
+
+.adil
+{
+    display: block;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: 200px;
+    padding: 10px;
+    box-shadow: 5px 5px 12px 0px #000000;
+    background-color: ghostwhite;
+    border-radius: 10px;
+    border: 2px solid cadetblue;
+}
+
+.videodisplay
+{
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+.h1_Adil
+{
+    text-align: center;
+}
+
+.h2_Adil
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.comp
+{
+    background-color: ghostwhite;
+    border-radius: 10px;
+    border: 2px solid cadetblue;
+
+    box-shadow: 5px 5px 12px 0px #000000;
+
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.contact
+{
+    margin-left: 50px;
+}
